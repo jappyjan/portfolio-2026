@@ -71,7 +71,7 @@ const ContactSection = () => {
               <img 
                 src={raccoonLogo} 
                 alt="Friendly raccoon mascot" 
-                className="w-32 h-32 opacity-80 hover:opacity-100 transition-opacity"
+                className="w-32 h-32 opacity-80 hover:opacity-100 transition-opacity invert"
               />
             </div>
           </div>

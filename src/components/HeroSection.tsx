@@ -50,7 +50,7 @@ const HeroSection = () => {
           <img 
             src={raccoonLogo} 
             alt="JanJaap's raccoon mascot" 
-            className="w-32 h-32 md:w-40 md:h-40 mx-auto glow-primary rounded-2xl animate-fade-in"
+            className="w-32 h-32 md:w-40 md:h-40 mx-auto glow-primary rounded-2xl animate-fade-in invert"
           />
         </div>
 
