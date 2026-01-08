@@ -67,12 +67,11 @@ const ContactSection = () => {
             </p>
             
             {/* Raccoon mascot */}
-            <div className="hidden md:block relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-primary rounded-lg opacity-80 mix-blend-screen pointer-events-none" />
+            <div className="hidden md:block">
               <img 
                 src={raccoonLogo} 
                 alt="Friendly raccoon mascot" 
-                className="w-32 h-32 opacity-90 hover:opacity-100 transition-opacity invert"
+                className="w-32 h-32 opacity-90 hover:opacity-100 transition-opacity"
               />
             </div>
           </div>
