@@ -44,13 +44,15 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* Raccoon logo */}
         <div 
-          className="mb-8 inline-block"
+          className="mb-8 inline-block relative"
           style={{ transform: `translateY(${scrollY * 0.1}px)` }}
         >
+          {/* Gradient overlay for logo */}
+          <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-primary rounded-2xl opacity-90 mix-blend-screen pointer-events-none" />
           <img 
             src={raccoonLogo} 
             alt="JanJaap's raccoon mascot" 
-            className="w-32 h-32 md:w-40 md:h-40 mx-auto glow-primary rounded-2xl animate-fade-in invert"
+            className="w-32 h-32 md:w-40 md:h-40 mx-auto glow-primary rounded-2xl animate-fade-in invert brightness-110"
           />
         </div>
 
